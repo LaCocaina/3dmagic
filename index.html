@@ -62,7 +62,7 @@
                 </div>
                 <div class="threed-block_info-wrap">
                     <div class="threed-block_info-trap">
-                        <img src="imagestsatrap.png" alt="trap"/>
+                        <img src="./images/itsatrap.png" alt="trap"/>
                     </div>
                     <div class="threed-block_info">
                         <div class="threed-block_text-head">
@@ -79,13 +79,13 @@
                                 <div    @click="threedCur > 1 && threedCur--"
                                         :class="`threed-block_info-arrow threed-block_info-left ${ threedCur === 1 && 'threed-block_info-inactive' }`">
                                     <div>
-                                        <img src="imagesrrow.svg" alt="left" />
+                                        <img src="./images/arrow.svg" alt="left" />
                                     </div>
                                 </div>
                                 <div    @click="threedCur < threed.length && threedCur++"
                                         :class="`threed-block_info-arrow threed-block_info-right ${ threedCur === threed.length && 'threed-block_info-inactive' }`">
                                     <div>
-                                        <img src="imagesrrow.svg" alt="right" />
+                                        <img src="./images/arrow.svg" alt="right" />
                                     </div>
                                 </div>
                             </div>
@@ -141,7 +141,7 @@
                     </div>
                     <div class="map-info_items">
                         <div class="map-info_item">
-                            <img src="imagesime.svg" alt="mark"/> Ежедневно без выходных с 12:00 до 20:00
+                            <img src="./images/time.svg" alt="mark"/> Ежедневно без выходных с 12:00 до 20:00
                         </div>
                     </div>
                 </div>
@@ -151,10 +151,10 @@
                     </div>
                     <div class="map-info_items">
                         <div class="map-info_item">
-                            <img src="imagesark.svg" alt="mark"/> г. Москва, ул. Пушкина, д. 14
+                            <img src="./images/mark.svg" alt="mark"/> г. Москва, ул. Пушкина, д. 14
                         </div>
                         <div class="map-info_item">
-                            <img src="imagesark.svg" alt="mark"/> г. Москва, ул. Калатушкина, д. 88
+                            <img src="./images/mark.svg" alt="mark"/> г. Москва, ул. Калатушкина, д. 88
                         </div>
                     </div>
                 </div>
@@ -183,26 +183,26 @@
                         </div>
                         <div class="footer-contacts_items">
                             <div class="footer-contacts_item">
-                                <a :href="`mailto:${links.mail}`"><img src="imagesail.svg" alt="mail" />{{ links.mail }}</a>
+                                <a :href="`mailto:${links.mail}`"><img src="./images/mail.svg" alt="mail" />{{ links.mail }}</a>
                             </div>
                             <div class="footer-contacts_item">
-                                <a :href="`tel:${links.phone}`"><img src="imageshone_foot.svg" alt="mail" />{{ links.phone }}</a>
+                                <a :href="`tel:${links.phone}`"><img src="./images/phone_foot.svg" alt="mail" />{{ links.phone }}</a>
                             </div>
                         </div>
                     </div>
                     <div class="footer-contacts_block">
                         <div class="footer-contacts_links">
                             <div class="footer-contacts_link">
-                                <a :href="`https://instagram.com/${links.ig}`" target="_blank"><img src="imagesnstagram.svg" alt="instagram" /></a>
+                                <a :href="`https://instagram.com/${links.ig}`" target="_blank"><img src="./images/instagram.svg" alt="instagram" /></a>
                             </div>
                             <div class="footer-contacts_link">
-                                <a :href="`whatsapp://send?text=Hello&phone=${links.wu}&abid=${links.wu}`" target="_blank"><img src="imageshatsup.svg" alt="whatsup" /></a>
+                                <a :href="`whatsapp://send?text=Hello&phone=${links.wu}&abid=${links.wu}`" target="_blank"><img src="./images/whatsup.svg" alt="whatsup" /></a>
                             </div>
                             <div class="footer-contacts_link">
-                                <a :href="`https://t.me/${links.tg}`" target="_blank"><img src="imageselegram.svg" alt="telegram" /></a>
+                                <a :href="`https://t.me/${links.tg}`" target="_blank"><img src="./images/telegram.svg" alt="telegram" /></a>
                             </div>
                             <div class="footer-contacts_link">
-                                <a :href="`https://vk.com/${links.vk}`" target="_blank"><img src="imagesk.svg" alt="vk" /></a>
+                                <a :href="`https://vk.com/${links.vk}`" target="_blank"><img src="./images/vk.svg" alt="vk" /></a>
                             </div>
                         </div>
                     </div>

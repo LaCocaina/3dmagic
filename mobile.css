@@ -52,7 +52,7 @@
     }
 
     .block-header_wrap {
-        background-image: url('imagesheese.png');
+        background-image: url('./images/cheese.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -62,7 +62,7 @@
     }
 
     .header-link_phone-icon {
-        background-image: url('imageshone.svg');
+        background-image: url('./images/phone.svg');
         background-repeat: no-repeat;
         background-size: 24px 24px;
         background-position: center;
